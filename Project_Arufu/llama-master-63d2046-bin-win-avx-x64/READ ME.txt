@@ -1,0 +1,5 @@
+You can put in the model files inside the llama-master-63d2046-bin-win-avx-x64 folder. As long as it runs on llama.cpp it would work.
+Note: If you want to use a model edit the run.bat file and replace it with the model file name. in this case it is the "ggml-model-q4_0.bin" from the line below:
+
+start "" /B /WAIT "%mainExePath%" -i --interactive-first -r "### Human:" --temp 0 -c 2048 -n -1 --ignore-eos --repeat_penalty 1.2 --instruct -m ggml-model-q4_0.bin
+
