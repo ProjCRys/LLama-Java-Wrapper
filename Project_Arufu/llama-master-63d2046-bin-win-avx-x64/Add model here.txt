@@ -1,0 +1,4 @@
+You can put in the model files here. As long as it runs on llama.cpp it would work.
+
+Note: If you want to use the model edit the run.bat file and replace it with the model file name.
+
