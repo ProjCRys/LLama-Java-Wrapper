@@ -1,20 +1,22 @@
 # LLama-Java-Wrapper
 This project helps easy implementation of LLMs to your Java projects. It's functional but still needs some improvements.
 
-Current Features:
+**Current Features:**
 
 Connect to llama.cpp 
 
 Can send inputs and retrieve bot response in real time
 
 
-Issues:
+**Issues:**
 
 Long inputs causes lower end devices to slow down
 
 Don't have memory to reference previous responses
 
-Future Plans:
+
+
+**Future Plans:**
 
 Allocate some memory to device GPUs 
 
