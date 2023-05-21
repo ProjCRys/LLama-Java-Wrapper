@@ -18,7 +18,7 @@ Don't have memory to reference previous responses
 
 **Future Plans:**
 
-Allocate some memory to device GPUs 
+Allocate some memory to device's GPUs 
 
 Fix memory issue(Current ideas: Create local database for it to reference previous conversation or Use smart prompting)
 
