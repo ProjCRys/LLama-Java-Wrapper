@@ -1,5 +1,12 @@
 You can put in the model files inside the llama-master-63d2046-bin-win-avx-x64 folder. As long as it runs on llama.cpp it would work.
-Note: If you want to use a model edit the run.bat file and replace it with the model file name. in this case it is the "ggml-model-q4_0.bin" from the line below:
+
+How to use: 
+1. If you're using Netbeans IDE change the "Project_Arufu" from the run.bat file into your project name
+
+set "mainExePath=%projectFolderPath%\Project_Arufu\llama-master-63d2046-bin-win-avx-x64\main.exe"
+
+2. If you want to use a model edit the run.bat file and replace it with the model file name. in this case it is the "ggml-model-q4_0.bin" from the line below:
 
 start "" /B /WAIT "%mainExePath%" -i --interactive-first -r "### Human:" --temp 0 -c 2048 -n -1 --ignore-eos --repeat_penalty 1.2 --instruct -m ggml-model-q4_0.bin
 
+3. You are free to add custom parameters to the above line to tune the bot's response. Just in case, I set it to default because I don't know how those commands work.
